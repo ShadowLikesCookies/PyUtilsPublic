@@ -1,0 +1,29 @@
+
+Lists (list)
+Tuples (tuple)
+Ranges (range)
+Bytes (bytes)
+Byte Arrays (bytearray)
+Memory Views (memoryview)
+Mapping Type:
+Dictionaries (dict)
+Set Types:
+Sets (set)
+Frozen Sets (frozenset)
+Binary Types:
+Bytes (bytes)
+Byte Arrays (bytearray)
+Memory Views (memoryview)
+None Type:
+NoneType (None)
+Modules:
+Modules (module)
+Functions:
+Functions (function)
+Lambdas (lambda)
+Classes and Instances:
+Classes (class)
+Instances (instance)
+Other Types:
+Ellipsis (...)
+NotImplemented
