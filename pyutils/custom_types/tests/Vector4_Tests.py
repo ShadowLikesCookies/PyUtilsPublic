@@ -1,19 +1,14 @@
 import sys
 import os
 
-# Getting the name of the directory where this file is present.
 current = os.path.dirname(os.path.realpath(__file__))
 
-# Getting the parent directory name where the current directory is present.
 parent = os.path.dirname(current)
 
-# Getting the path to the VectorTypes directory
 vector_types_dir = os.path.join(parent, 'VectorTypes')
 
-# Adding the VectorTypes directory to the sys.path.
 sys.path.append(vector_types_dir)
-from Vector4 import Vector4  # Make sure to import your Vector4 class
-
+from Vector4 import Vector4 
 def test_vector4():
     # Test initialization
     v1 = Vector4(3, 4, 5, 6)
@@ -85,5 +80,4 @@ def test_vector4():
 
     print("All tests passed!")
 
-# Run the tests
 test_vector4()
