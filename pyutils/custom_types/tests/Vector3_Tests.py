@@ -12,7 +12,7 @@ vector_types_dir = os.path.join(parent, 'VectorTypes')
 
 # Adding the VectorTypes directory to the sys.path.
 sys.path.append(vector_types_dir)
-from Vector3 import Vector3  # Make sure to import your Vector3 class
+from Vector3 import Vector3 
 
 def test_vector3():
     # Test initialization
