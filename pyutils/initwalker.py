@@ -10,5 +10,3 @@ def create_init_files(root_dir):
             print(f"Created __init__.py in {dirpath}")
 
 if __name__ == "__main__":
-    project_root = '/home/hugowoods/Desktop/pyutils'  # Replace with your project's root directory
-    create_init_files(project_root)
